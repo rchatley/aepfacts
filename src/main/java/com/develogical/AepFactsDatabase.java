@@ -13,6 +13,7 @@ public class AepFactsDatabase {
         data.put("robert", new MiniBiog("Robert teaches the AEP course, he likes classical music and bicycles.", "http://chatley.com/portrait-smaller.jpg"));
         data.put("eamonn", new MiniBiog("Eamonn is a DPhil candidate at Oxford University. I work on scientific data visualization and bioinformatics", "http://www.cs.ox.ac.uk/files/4256//maguire.eamonn.gif"));
         data.put("nigel", new MiniBiog("Nigel is a student on the AEP course", "http://photos.geni.com/p6/3608/5193/53444836a0c8951c/Copy_of_131_3192_medium.jpg"));
+        data.put("colin", new MiniBiog("Colin doesn't do much these days and likes post rock music and cider.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/203393_585632745_7365858_q.jpg"));
     }
 
     public MiniBiog lookup(String name) {
