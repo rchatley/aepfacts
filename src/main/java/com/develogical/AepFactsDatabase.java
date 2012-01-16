@@ -11,6 +11,7 @@ public class AepFactsDatabase {
         data = new HashMap<String, MiniBiog>();
         data.put("jim", new MiniBiog("Jim is a DPhil candidate at Oxford University, he likes programming in Go and in Lua.", "https://lh3.googleusercontent.com/-k5kuysabs78/AAAAAAAAAAI/AAAAAAAAWdc/jPsR9cFKm88/s200-c-k/photo.jpg"));
         data.put("robert", new MiniBiog("Robert teaches the AEP course, he likes classical music and bicycles.", "http://chatley.com/portrait-smaller.jpg"));
+        data.put("zinat", new MiniBiog("Zinat is attending the APE course at the University of Oxford",""));
     }
 
     public MiniBiog lookup(String name) {
