@@ -44,7 +44,15 @@ public class WebServer extends HttpServlet {
     }
 
     public static void main(String[] args) throws Exception {
-        Server server = new Server(Integer.valueOf(System.getenv("PORT")));
+        int port;
+        try {
+            port = Integer.valueOf(System.getenv("PORT"));
+        } catch (Exception e) {
+            // could not parse PORT env variable - using present port;
+            port = 5000;
+        }
+
+        Server server = new Server(port);
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         context.setContextPath("/");
         server.setHandler(context);
