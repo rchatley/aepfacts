@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="lib">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.5.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jetty-all-7.0.2.v20100331.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/servlet-api-2.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
