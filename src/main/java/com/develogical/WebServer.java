@@ -11,15 +11,35 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.io.PrintWriter;
 
 public class WebServer extends HttpServlet {
 
+    /**
+     * Handle a GET request to the server
+     */
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        if (req.getParameter("q") == null) {
-            new IndexPage().writeTo(resp);
+        String query = req.getParameter("q");
+        if (query != null) {
+            // Log each query out to the console
+            System.out.println("Query: " + query);
+        }
+        
+        resp.setContentType("text/plain");
+        resp.getWriter().println(process(query));
+    }
+
+    /**
+     * Process a given query, producing a text string as a result
+     */
+    public String process(String query) {
+        if (false) { // you should change this =)
+            // How do you determine how to handle a given query?
+            return "";
         } else {
-            new SearchResultsPage(req.getParameter("q")).writeTo(resp);
+            // A sensible default
+            return "Unknown";
         }
     }
 
