@@ -19,11 +19,17 @@ public class WebServer {
     class Website extends HttpServlet {
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            String query = req.getParameter("q");
-            if (query == null) {
-                new IndexPage().writeTo(resp);
-            } else {
-                new SearchResultsPage(query, process(query)).writeTo(resp);
+            try {
+
+                String query = req.getParameter("q");
+                if (query == null) {
+                    new IndexPage().writeTo(resp);
+                } else {
+                    new SearchResultsPage(query, process(query)).writeTo(resp);
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
             }
         }
     }
@@ -31,12 +37,19 @@ public class WebServer {
     class Api extends HttpServlet {
         @Override
         protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-            String query = req.getParameter("q");
-            new ApiResponse(new QueryProcessor().process(query)).writeTo(resp);
+            try {
+
+                String query = req.getParameter("q");
+                new ApiResponse(new QueryProcessor().process(query)).writeTo(resp);
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         }
     }
 
     private Map<Key,String> process(String query) {
+        Integer.parseInt(query);
         return new AepFactsDatabase().lookup(query);
     }
 
