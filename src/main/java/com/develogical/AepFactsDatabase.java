@@ -22,7 +22,7 @@ public class AepFactsDatabase {
         // student 2 add biog here
         // student 3 add biog here
         // student 4 add biog here
-        // student 5 add biog here
+        data.put("matthew",  miniBiog("Matthew is a creature that resembles a hobbit, but his feet are not hairy.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/50092_1078535965_2537572_n.jpg"));
         // student 6 add biog here
         // student 7 add biog here
         // student 8 add biog here
