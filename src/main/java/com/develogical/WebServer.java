@@ -49,7 +49,6 @@ public class WebServer {
     }
 
     private Map<Key,String> process(String query) {
-        Integer.parseInt(query);
         return new AepFactsDatabase().lookup(query);
     }
 
