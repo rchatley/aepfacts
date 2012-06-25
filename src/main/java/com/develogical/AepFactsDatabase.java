@@ -31,6 +31,7 @@ public class AepFactsDatabase {
         // student 10 add biog here
         // student 11 add biog here
         // student 12 add biog here
+        data.put("lars", miniBiog("Lars is a student on the AEP course. He does like his coffee ...", "http://www.engineeringletters.com/images/Lars_Nolle.jpg"));
         // student 13 add biog here
         // student 14 add biog here
         // student 15 add biog here
