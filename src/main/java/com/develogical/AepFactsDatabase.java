@@ -30,6 +30,7 @@ public class AepFactsDatabase {
         // student 9 add biog here
         // student 10 add biog here
         // student 11 add biog here
+        data.put("jozef", miniBiog("Jozef lives in Switzerland and likes kickboxing.", "http://t3.gstatic.com/images?q=tbn:ANd9GcSOfKOK-CpK1uyjgFDMTFRKY7TA-ZS50Kbr5IwrasjdoAycIJI7FQ"));
         // student 12 add biog here
         // student 13 add biog here
         // student 14 add biog here
