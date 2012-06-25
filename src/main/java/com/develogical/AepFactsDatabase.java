@@ -18,6 +18,7 @@ public class AepFactsDatabase {
         data.put("colin",  miniBiog("Colin doesn't do much these days and likes post rock music and cider.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/203393_585632745_7365858_q.jpg"));
 
         // student 1 add biog here (description and photo)
+        data.put("joe",  miniBiog("Joe likes to make changes as suggested in the course notes, and to drink sometimes", "https://lh5.googleusercontent.com/-m7ydNlzEick/AAAAAAAAAAI/AAAAAAAAAAA/GwrVwvQZOBM/s250-c-k/photo.jpg"));
         // student 2 add biog here
         // student 3 add biog here
         // student 4 add biog here
