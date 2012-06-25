@@ -23,7 +23,7 @@ public class AepFactsDatabase {
         // student 3 add biog here
         // student 4 add biog here
         data.put("mike",   miniBiog("Mike likes Git and functional programming.", "https://secure.gravatar.com/avatar/4ea9afaf51f26a5f7171f950f6272f4d?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"));
-        // student 5 add biog here
+        data.put("matthew",  miniBiog("Matthew is a creature that resembles a hobbit, but his feet are not hairy.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/50092_1078535965_2537572_n.jpg"));
         // student 6 add biog here
         // student 7 add biog here
         // student 8 add biog here
