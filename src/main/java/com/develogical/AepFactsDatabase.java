@@ -28,6 +28,7 @@ public class AepFactsDatabase {
         // student 7 add biog here
         // student 8 add biog here
         // student 9 add biog here
+        data.put("suman", miniBiog("Suman is a student on the AEP course.", "http://www.weirdsnaps.com/wp-content/uploads/2012/05/funny-panda.jpg"));
         // student 10 add biog here
         // student 11 add biog here
         // student 12 add biog here
