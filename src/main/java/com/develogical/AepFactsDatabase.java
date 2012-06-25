@@ -30,6 +30,7 @@ public class AepFactsDatabase {
         data.put("ben",  miniBiog("Ben would rather be mooging", "http://forums.planetz.com/download/file.php?avatar=327_1231336408.gif"));
         // student 7 add biog here
         // student 8 add biog here
+        data.put("stuart",  miniBiog("Stuart is looking forward to finishing his Msc and getting his holidays back.", "http://tiny.cc/d9gggw"));
         // student 9 add biog here
         data.put("bas", miniBiog("All you base are belong to me", "http://www.justducks.co.uk/Images/General%20Ducks/32cm%20Giant%20Duck.jpeg"));
         // student 11 add biog here
