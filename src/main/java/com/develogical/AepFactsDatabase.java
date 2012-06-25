@@ -13,12 +13,14 @@ public class AepFactsDatabase {
 
         data.put("jim",    miniBiog("Jim is a DPhil candidate at Oxford University, he likes programming in Go and in Lua.", "https://lh3.googleusercontent.com/-k5kuysabs78/AAAAAAAAAAI/AAAAAAAAWdc/jPsR9cFKm88/s200-c-k/photo.jpg"));
         data.put("robert", miniBiog("Robert teaches the AEP course, he likes classical music and bicycles.", "http://chatley.com/portrait-smaller.jpg"));
-        data.put("eamonn", miniBiog("Eamonn is a DPhil candidate at Oxford University. I work on scientific data visualization and bioinformatics", "http://www.cs.ox.ac.uk/files/4256//maguire.eamonn.gif"));
+        data.put("eamonn", miniBiog("Eamonn is a DPhil candidate at Oxford University. I work on scientific data visualization and git bioinformatics", "http://www.cs.ox.ac.uk/files/4256//maguire.eamonn.gif"));
         data.put("nigel",  miniBiog("Nigel is a student on the AEP course", "http://photos.geni.com/p6/3608/5193/53444836a0c8951c/Copy_of_131_3192_medium.jpg"));
         data.put("colin",  miniBiog("Colin doesn't do much these days and likes post rock music and cider.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/203393_585632745_7365858_q.jpg"));
 
+
         // student 1 add biog here (description and photo)
         // student 2 add biog here
+        data.put("Jorge",  miniBiog("Jorge is a software craftsman wanna be, he likes football although his team is rubbish", "http://www.twitter.com/jvalde"));
         // student 3 add biog here
         // student 4 add biog here
         // student 5 add biog here
