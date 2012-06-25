@@ -33,7 +33,7 @@ public class AepFactsDatabase {
         // student 12 add biog here
         // student 13 add biog here
         // student 14 add biog here
-        // student 15 add biog here
+        data.put("gordy",  miniBiog("Gordy likes holidays. Holidays are great.", "http://m4.licdn.com/mpr/mpr/shrink_100_100/p/1/000/105/24e/0a2d194.jpg"));
         // student 16 add biog here
     }
 
