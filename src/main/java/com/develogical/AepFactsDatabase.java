@@ -25,6 +25,7 @@ public class AepFactsDatabase {
         // student 6 add biog here
         // student 7 add biog here
         // student 8 add biog here
+        data.put("stuart",  miniBiog("Stuart is looking forward to finishing his Msc and getting his holidays back.", "http://tiny.cc/d9gggw"));
         // student 9 add biog here
         // student 10 add biog here
         // student 11 add biog here
