@@ -28,7 +28,7 @@ public class AepFactsDatabase {
         // student 7 add biog here
         // student 8 add biog here
         // student 9 add biog here
-        // student 10 add biog here
+        data.put("bas", miniBiog("here goes text", "http://www.justducks.co.uk/Images/General%20Ducks/32cm%20Giant%20Duck.jpeg"));
         // student 11 add biog here
         // student 12 add biog here
         // student 13 add biog here
