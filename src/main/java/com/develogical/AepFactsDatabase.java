@@ -38,7 +38,7 @@ public class AepFactsDatabase {
         // student 13 add biog here
         data.put("santosh",  miniBiog("Santosh is lazy.", "no profile"));
         // student 15 add biog here
-        // student 16 add biog here
+        data.put("adam",  miniBiog("Adam is doing his first module, be nice to the fresher.", "http://m3.licdn.com/mpr/pub/image-A4OC8sCdQiegV-qscB5w7GNIaIhsie6QGPJ7s-8daGDS16aSA4O7a7Ldas_Ii5yQUpoy/adam-switzer.jpg"));
     }
 
     public Map<Key,String> lookup(String name) {
