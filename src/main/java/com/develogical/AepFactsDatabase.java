@@ -18,7 +18,7 @@ public class AepFactsDatabase {
         data.put("colin",  miniBiog("Colin doesn't do much these days and likes post rock music and cider.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/203393_585632745_7365858_q.jpg"));
 
         data.put("joe",  miniBiog("Joe likes to make changes as suggested in the course notes, and to drink sometimes", "https://lh5.googleusercontent.com/-m7ydNlzEick/AAAAAAAAAAI/AAAAAAAAAAA/GwrVwvQZOBM/s250-c-k/photo.jpg"));
-        data.put("Jorge",  miniBiog("Jorge is a software craftsman wanna be, he likes football although his team is rubbish", "http://www.twitter.com/jvalde"));
+        data.put("Jorge",  miniBiog("Jorge is a software craftsman wanna be, he likes football although his team is rubbish", "https://si0.twimg.com/profile_images/369284120/IMG_0744.jpg"));
         data.put("mike",   miniBiog("Mike likes Git and functional programming.", "https://secure.gravatar.com/avatar/4ea9afaf51f26a5f7171f950f6272f4d?s=140&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"));
         data.put("matthew",  miniBiog("Matthew is a creature that resembles a hobbit, but his feet are not hairy.", "http://profile.ak.fbcdn.net/hprofile-ak-snc4/50092_1078535965_2537572_n.jpg"));
         data.put("ben",  miniBiog("Ben would rather be mooging", "http://forums.planetz.com/download/file.php?avatar=327_1231336408.gif"));
