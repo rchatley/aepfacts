@@ -29,6 +29,7 @@ public class AepFactsDatabase {
         data.put("santosh",  miniBiog("Santosh is lazy.", "no profile"));
         data.put("adam",     miniBiog("Adam is doing his first module, be nice to the fresher.", "http://m3.licdn.com/mpr/pub/image-A4OC8sCdQiegV-qscB5w7GNIaIhsie6QGPJ7s-8daGDS16aSA4O7a7Ldas_Ii5yQUpoy/adam-switzer.jpg"));
         data.put("gordy",    miniBiog("Gordy likes holidays. Holidays are great.", "http://m4.licdn.com/mpr/mpr/shrink_100_100/p/1/000/105/24e/0a2d194.jpg"));
+        data.put("mandeep",  miniBiog("Mandeep is a DPhil candidate at Oxford University, he's looking forward to finishing soon and backpacking around Australia.", "https://lh5.googleusercontent.com/-x02hhRKA8CQ/AAAAAAAAAAI/AAAAAAAAAAA/FYpTIjcJyZU/s96-c/photo.jpg"));
 
         // student 1 add biog after this comment
         // student 1 add biog above this comment
