@@ -30,9 +30,9 @@ public class AepFactsDatabase {
         data.put("adam",     miniBiog("Adam is doing his first module, be nice to the fresher.", "http://m3.licdn.com/mpr/pub/image-A4OC8sCdQiegV-qscB5w7GNIaIhsie6QGPJ7s-8daGDS16aSA4O7a7Ldas_Ii5yQUpoy/adam-switzer.jpg"));
         data.put("gordy",    miniBiog("Gordy likes holidays. Holidays are great.", "http://m4.licdn.com/mpr/mpr/shrink_100_100/p/1/000/105/24e/0a2d194.jpg"));
         data.put("mandeep",  miniBiog("Mandeep is a DPhil candidate at Oxford University, he's looking forward to finishing soon and backpacking around Australia.", "https://lh5.googleusercontent.com/-x02hhRKA8CQ/AAAAAAAAAAI/AAAAAAAAAAA/FYpTIjcJyZU/s96-c/photo.jpg"));
-
         data.put("Richard",    miniBiog("Loves coffee.", "http://images1.fanpop.com/images/image_uploads/Funny-Cat-Pictures-animal-humor-935491_500_375.jpg"));
 
+        data.put("ross",     miniBiog("I live in London, I've just celebrated my seventh wedding anniversary and I have a son who is two years old.", "https://1.gravatar.com/avatar/ffcb06accc2ec7657eb5cffc0c9e13e2?d=https%3A%2F%2Fidenticons.github.com%2F816955557a9d60a74bd3a1d934f6a372.png"));
         // student 1 add biog after this comment
         data.put("vinod",  miniBiog("Vinod is trying out Git!", "https://secure.gravatar.com/avatar/5d2759d44f8f5b396fdf21f13ab58d65?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"));
         // student 1 add biog above this comment
@@ -40,13 +40,13 @@ public class AepFactsDatabase {
 
         // student 2 add biog after this comment
         // student 2 add biog above this comment
-        
+
         // student 3 add biog after this comment
         // student 3 add biog above this comment
-        
+
         // student 4 add biog after this comment
         // student 4 add biog above this comment
-        
+
         // student 5 add biog after this comment
         // student 5 add biog above this comment
 
@@ -58,7 +58,7 @@ public class AepFactsDatabase {
 
         // student 8 add biog after this comment
         // student 8 add biog above this comment
-        
+
         // student 9 add biog after this comment
         // student 9 add biog above this comment
 
@@ -82,7 +82,7 @@ public class AepFactsDatabase {
 
         // student 16 add biog after this comment
         // student 16 add biog above this comment
-        
+
         // student 17 add biog after this comment
         // student 17 add biog above this comment
 
