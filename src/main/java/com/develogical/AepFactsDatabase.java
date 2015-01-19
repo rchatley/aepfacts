@@ -37,12 +37,11 @@ public class AepFactsDatabase {
         data.put("vinod",  miniBiog("Vinod is trying out Git!", "https://secure.gravatar.com/avatar/5d2759d44f8f5b396fdf21f13ab58d65?s=420&d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png"));
         // student 1 add biog above this comment
 
-        data.put("hypnotoad",  miniBiog("hypnotoad is trying out Git too!", "http://i.kinja-img.com/gawker-media/image/upload/s--rrH1qsN3--/17sl2nb9l66a4gif.gif"));
-
 
         // student 2 add biog after this comment
         // student 2 add biog above this comment
 
+        data.put("Hypnotoad",  miniBiog("Hypnotoad is trying out Git too!", "http://i.kinja-img.com/gawker-media/image/upload/s--rrH1qsN3--/17sl2nb9l66a4gif.gif"));
         // student 3 add biog after this comment
         // student 3 add biog above this comment
 
