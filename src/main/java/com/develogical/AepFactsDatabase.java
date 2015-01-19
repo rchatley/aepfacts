@@ -43,6 +43,7 @@ public class AepFactsDatabase {
         // student 2 add biog after this comment
         // student 2 add biog above this comment
 
+        data.put("Hypnotoad",  miniBiog("Hypnotoad is trying out Git too!", "http://i.kinja-img.com/gawker-media/image/upload/s--rrH1qsN3--/17sl2nb9l66a4gif.gif"));
         // student 3 add biog after this comment
         // student 3 add biog above this comment
 
