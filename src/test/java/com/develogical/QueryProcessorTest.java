@@ -1,11 +1,13 @@
 package com.develogical;
 
-
 import org.junit.Test;
+
+import java.util.Map;
 
 import static junit.framework.Assert.assertNotNull;
 import static org.hamcrest.CoreMatchers.is;
 import static org.junit.Assert.assertThat;
+import static org.junit.matchers.JUnitMatchers.containsString;
 
 public class QueryProcessorTest {
 
