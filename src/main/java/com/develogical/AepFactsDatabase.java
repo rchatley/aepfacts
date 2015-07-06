@@ -41,7 +41,8 @@ public class AepFactsDatabase {
         // student 1 add biog above this comment
         data.put("Mario", miniBiog("Hey, I am Mario from Austria!", "https://media.licdn.com/mpr/mpr/shrink_200_200/p/1/005/09e/093/362146d.jpg"));
         // student 2 add biog after this comment
-        // student 2 add biog above this comment
+        data.put("Carlos",    miniBiog("Likes Ethereum.", "http://twitter.com/carlosnasillo"));
+
 
         data.put("Hypnotoad",  miniBiog("Hypnotoad is trying out Git too!", "http://i.kinja-img.com/gawker-media/image/upload/s--rrH1qsN3--/17sl2nb9l66a4gif.gif"));
         // student 3 add biog after this comment
